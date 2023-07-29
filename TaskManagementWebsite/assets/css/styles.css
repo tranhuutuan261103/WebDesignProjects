@@ -567,10 +567,12 @@ a {
 }
 
 .explore__heading {
+    grid-area: explore__heading;
     max-width: 493px;
 }
 
 .explore__list {
+    grid-area: explore__list;
     display: flex;
     flex-direction: column;
     row-gap: 16px;
@@ -596,6 +598,7 @@ a {
 }
 
 .explore__action {
+    grid-area: explore__cta;
     display: flex;
     align-items: center;
     gap: 10px;
@@ -626,6 +629,10 @@ a {
     font-size: 1.6rem;
     font-weight: 400;
     line-height: 1.5;
+}
+
+.explore__images {
+    grid-area: explore__images;
 }
 
 .explore__thumb-background {
